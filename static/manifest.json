@@ -1,7 +1,19 @@
 {
-  "name": "Example Gmail Extension",
-  "description": "Example extension showing use of the Streak Gmail SDK",
-  "version": "0.1",
+  "name": "EZ Write: AI Powered Gmail Writer",
+  "version": "0.2",
+  "description": "Effortlessly write emails with the help of AI, saving you time and effort!",
+  "manifest_version": 3,
+  "author": "Malik Elate",
+  "icons": {
+    "16": "ezwrite16.png",
+    "32": "ezwrite32.png",
+    "48": "ezwrite48.png",
+    "128": "ezwrite128.png"
+  },
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "EZ Write: AI Powered Gmail Writer"
+  }, 
   "content_scripts": [
     {
       "matches": [
@@ -19,6 +31,5 @@
   ],
   "host_permissions": [
     "https://mail.google.com/"
-  ],
-  "manifest_version": 3
+  ]
 }
