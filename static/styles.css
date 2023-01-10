@@ -10,14 +10,22 @@ body {
 
 #main-content-div > h1 { 
     color: black;
+    font-size: 24px;
 }
+
 #main-content-div > h2 { 
     color: #333333;
     margin-bottom: 0;
+    font-size: 24px;
 }
+
 #main-content-div > ol { 
     color: #333333;
 }
+#main-content-div > li { 
+    font-size: 14px;
+}
+
 textarea { 
     height: 200px;
     font-size: 18px;  
@@ -28,7 +36,7 @@ textarea {
     border-radius: 5px;
 }  
 
-#generate-button { 
+#main-content-div > button { 
     margin-top: 8px;
     color: #ffffff;
     background-color: #0077b6;
@@ -37,7 +45,7 @@ textarea {
     text-align: center; 
     text-decoration: none; 
     display: inline-block; 
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer; 
     border-radius: 5px;
@@ -45,10 +53,9 @@ textarea {
 
 a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #ffa500;
-    text-decoration: none;
 }
 
 a:hover {
